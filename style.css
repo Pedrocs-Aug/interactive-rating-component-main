@@ -21,6 +21,9 @@ body {
     height: 400px;
     background-color: #222933;
     border-radius: 20px;
+    z-index: 0;
+    position: absolute;
+    align-items: center;
 }
 
 .container__icon-star {
@@ -52,7 +55,7 @@ body {
     cursor: pointer;
 }
 
-.button-number-active {
+.active {
     background-color: white;
     color: black;
 }
@@ -100,4 +103,41 @@ body {
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 4px;
+}
+
+.selecionado {
+    background-color: white;
+    color: #141519;
+}
+
+.primeiro_banner {
+    z-index: 1;
+}
+
+.illustration-thank-you {
+    margin-top: 10%;
+}
+
+.button-selected {
+    width: auto;
+    height: 50px;
+    background-color: #252F39;
+    border-radius: 25px;
+    border: none;
+    color: #FC7613;
+    font-size: 15px;
+    margin-top: 20px;
+    margin: 5%;
+    padding: 0 20px;
+}
+
+.thank-you-title {
+    margin-top: 3%;
+}
+
+.thank-you-text {
+    margin: 0 10%;
+    text-align: center;
+    color: #7C8798;
+    line-height: 1.5;
 }
